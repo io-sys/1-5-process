@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# HEAD
+printf "PID \tTTY \tSTAT \t TIME  COMMAND \n"
 
 # Собрать все каталоги процессов.
 var_proc=`ls -d -1 /proc/* | awk '{print substr($1,7,10)}' | sort -n`   
