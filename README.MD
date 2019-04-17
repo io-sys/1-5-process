@@ -2,8 +2,8 @@
 - Результат ДЗ - рабочий скрипт `ps-ax.sh`, который можно запустить.
 
 
-Алгоритм статусов BSD-Style был взят из исходных кодов ps из файла output.c
-По ссылке https://gitlab.com/procps-ng/procps/blob/master/ps/output.c#L585
+> Алгоритм статусов BSD-Style был взят из исходных кодов ps из файла output.c
+> По ссылке https://gitlab.com/procps-ng/procps/blob/master/ps/output.c#L585
 
 ```php
 static int pr_stat(char *restrict const outbuf, const proc_t *restrict const pp){
